@@ -8,6 +8,7 @@
     "schedule:weekly"
   ],
   "ignoreDeps": ["php"],
+  "ignorePaths": ["src/Illuminate/Foundation/resources/exceptions/renderer/**"],
   "packageRules": [
     {
       "groupName": "GitHub Actions",
